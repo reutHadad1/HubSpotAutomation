@@ -11,6 +11,8 @@ cd HubSpotAutomation
 
 npm install
 
+playwright install
+
 ## run tests:
 npx playwright test
 
