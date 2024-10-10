@@ -1,0 +1,18 @@
+{
+    "name": "hubspot-automation",
+    "version": "1.0.0",
+    "description": "Automation test suite for HubSpot contacts using Playwright and TypeScript",
+    "main": "index.js",
+    "scripts": {
+        "test": "playwright test"
+    },
+    "dependencies": {
+        "@playwright/test": "^1.48.0",
+        "axios": "^1.7.7",
+        "dotenv": "^16.4.5",
+        "playwright": "^1.24.0"
+    },
+    "devDependencies": {
+        "typescript": "^4.5.2"
+    }
+}
